@@ -40,7 +40,7 @@ matrix:
 
     # OS X 10.12 binaries
     - os: osx
-      osx_image: xcode8.3
+      osx_image: xcode9.2
       env: OS=sierra-10.12
 
     # OS X 10.11 binaries
