@@ -2,7 +2,7 @@ class Xapiand < Formula
   desc "Xapiand: A RESTful Search Engine"
   homepage "https://kronuz.io/Xapiand"
   url "https://github.com/Kronuz/Xapiand/archive/v0.5.2.tar.gz"
-  sha256 "53b9c2243c1d4a568d4779e45a83b15a13effbe195fa9cc82fefe499f8a0a778"
+  sha256 "2b44f681da563537649620db1dd183f9ad1292a649302bd0a93c8108bf54524a"
   head "https://github.com/Kronuz/Xapiand.git"
 
   bottle do
