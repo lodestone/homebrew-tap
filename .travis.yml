@@ -11,6 +11,8 @@ addons:
 
 env:
   global:
+    - CI=1
+    - TRAVIS=1
     - ARTIFACTS_BUCKET=homebrew-tap
     - ARTIFACTS_KEY=AKIAIWZQ3EMXPKKU5JZA
     # travis encrypt ARTIFACTS_SECRET=secret_password --add env.global
