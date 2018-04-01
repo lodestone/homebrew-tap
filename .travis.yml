@@ -43,13 +43,11 @@ matrix:
 
     # OS X 10.11 binaries
     - os: osx
-      # osx_image: xcode7.3
       osx_image: xcode8.1
       env: OS=el_capitan-10.11
 
     # OS X 10.10 binaries
     - os: osx
-      # osx_image: xcode6.4
       osx_image: xcode7.2
       env: OS=yosemite-10.10
 
@@ -74,7 +72,7 @@ install:
   - HOMEBREW_DEVELOPER=1 brew doctor
   - brew tap Kronuz/tap
   - brew update
+
+script:
   - brew install --build-bottle xapiand
-  - brew bottle xapiand
-  - pwd
-  - find .
+  - brew bottle --no-rebuild xapiand
