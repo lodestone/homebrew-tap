@@ -6,17 +6,22 @@
 
 This formula makes it easy to install `xapiand` on any modern OS X system.
 
-Just `brew tap Kronuz/tap` and then `brew install xapiand`.
+Just `brew install Kronuz/tap/nginx`.
 
 The [project's page](http://kronuz.io/Xapiand) goes into detail about it.
 
 
 # To Build Bottles
 
-`brew update`
-`brew install --build-bottle xapiand`
-`brew bottle xapiand`
+```sh
+brew update
 
+brew install --build-bottle xapiand
+brew bottle xapiand
+
+brew install --build-bottle Kronuz/tap/nginx
+brew bottle Kronuz/tap/nginx
+```
 
 # Copyright
 
