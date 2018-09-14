@@ -16,8 +16,8 @@ The [project's page](http://kronuz.io/Xapiand) goes into detail about it.
 ```sh
 brew update
 
-brew install --build-bottle xapiand
-brew bottle xapiand
+brew install --build-bottle Kronuz/tap/xapiand
+brew bottle Kronuz/tap/xapiand
 
 brew install --build-bottle Kronuz/tap/nginx
 brew bottle Kronuz/tap/nginx
